@@ -5,6 +5,8 @@ while True:
     for i in range(1, 21):
         if a % i == 0:
             count += 1
+        else:
+            break
     if count == 20:
         print(a)
         break
